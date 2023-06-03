@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.full_body{
+    display: flex;
+    }
+  .company_logo{
+    width: 6rem;
+    padding:0.8rem 1rem;
+    }
+  .companyLogo{
+    border-bottom: 1px solid  #dbdbde;
+  }
+  .left_navbar{
+    height: 100vh;
+    width: 20%;
+    background-color: #F1F1F9;
+    font-family: Poppins;
+ }
+  .client_details{
+  display: flex;
+  padding: 1rem 1.3rem;
+  }
+  .logoutMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoutImg{
+    /* margin: 0 2rem; */
+    width: 1.7rem;
+    border-radius: 50%;
+  }
+  .employeeImg{
+    width: 2.5rem;
+    border-radius: 50%;
+  }
+  .employee_basic_details>p{
+  font-size: small;
+  color: grey;
+  }
+  .dropdown,.navDropdown{
+    position: relative;
+  }
+  .dropdownToggle{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+     color: #636984;
+     font-size: 0.9rem;
+     margin-right: 1.5rem;
+  }
+  .dropdownToggle:hover{
+    cursor: pointer;
+  }
+  .navDropdownToggle{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    padding: 0.7rem 1rem;
+  font-size: 14px;
+  font-weight: bold;
+  color: #636984;
+  }
+  .navDropdownToggle:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #17c5c5;
+  }
+  .dropdownMenu{
+  position: absolute;
+  top: 1rem;
+  left: 4rem;
+  padding: 0.5rem;
+  width: max-content;
+  background: #F1F1F9;
+  border-radius: 5px;
+  color: #636984;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .navDropdownMenu{
+    position: absolute;
+  top: 1rem;
+  left: 15rem;
+  padding: 0.5rem;
+  width: max-content;
+  background: #F1F1F9;
+  border-radius: 5px;
+  color: #636984;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  .dropdownMenu:hover {
+    cursor: pointer;
+  }
+  .navDropdownMenu>li:hover {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    padding:0.1rem 0.2rem;
+    color: #17c5c5;
+  }
+  .active{
+    color: #17c5c5;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .nav_sections{
+    padding: 0rem 1rem;
+    color: rgb(97, 95, 95);
+    }
+  .navItems>button{
+    border: none;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: #636984;
+    }
+  .navItems>button:hover{
+    background-color: #fff;
+    color: #17c5c5;
+    }
